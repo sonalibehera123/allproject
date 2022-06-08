@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+
+    scroll-behavior: smooth;
+}
+
+body{
+    display:flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+
+    border: 1px solid black;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+nav h1{
+    font-size:30px ;
+    font-weight:400 ;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+
+    border-bottom: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+
+nav ul li:hover{
+
+background: #ccc;
+transition: 0.5s ease-in-out;
+
+}
+
+
+main{
+    padding: 50px;
+}
+
+section{
+
+    margin-bottom:50px;
+    scroll-margin: 50px;
+}
+
+section article{
+    max-width: 1200px;
+    font-size: 14px;
+}
+    
+
+
+section h1, h2{
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}

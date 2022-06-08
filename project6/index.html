@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+        <i class="fa fa-bars" id="menu"></i>
+
+        <section id="sidenav">
+            <ul>
+                <li><a href="#about"><i class="fa fa-home"></i>About</a></li>
+                <li><a href="#about"><i class="fa fa-home"></i>About</a></li>
+                <li><a href="#about"><i class="fa fa-home"></i>About</a></li>
+                <li><a href="#about"><i class="fa fa-home"></i>About</a></li>
+                <li><a href="#about"><i class="fa fa-home"></i>About</a></li>
+            </ul>
+        </section>
+
+    </header>
+
+    <script type="text/javascript">
+
+        var menu = document.getElementById("menu");
+        var sidenav = document.getElementById("sidenav");
+        sidenav.style.width = "0px";
+
+        menu.onclick = () => {
+
+            if (sidenav.style.width == "0px") {
+                sidenav.style.width = "250px";
+            }
+            else {
+
+                sidenav.style.width = "0px";
+
+            }
+        }
+
+
+    </script>
+
+
+
+</body>
+
+</html>
